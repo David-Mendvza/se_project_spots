@@ -20,9 +20,16 @@
   margin: 0;
   width: 104px;
   height: 16px;
+  align-items: center;
+  opacity: 0.7;
 }
 @media screen and (max-width: 627px) {
   .footer {
     max-width: 480px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    justify-content: center;
   }
 }
