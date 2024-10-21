@@ -1,0 +1,28 @@
+.footer {
+  background-color: #fcf5e5;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  padding: 60px;
+}
+.footer__section {
+  margin: 0;
+  max-width: 1420px;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer__copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  width: 104px;
+  height: 16px;
+}
+@media screen and (max-width: 627px) {
+  .footer {
+    max-width: 480px;
+  }
+}
