@@ -24,7 +24,8 @@
 }
 @media screen and (max-width: 627px) {
   .footer {
-    max-width: 480px;
+    max-width: 288px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1440px) {
