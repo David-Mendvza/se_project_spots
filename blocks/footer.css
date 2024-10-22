@@ -4,8 +4,8 @@
   padding: 60px;
 }
 .footer__section {
-  margin: 0;
-  max-width: 1420px;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .footer__content {
   display: flex;
@@ -30,6 +30,6 @@
 }
 @media screen and (min-width: 1440px) {
   .footer {
-    justify-content: center;
+    text-align: center;
   }
 }
