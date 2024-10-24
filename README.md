@@ -26,4 +26,6 @@ This project illustartes the ways in which reponisive websites are constructed u
 
 This webpage is deployed to GitHub Pages
 
--[Development Link]: (https://david-mendvza.github.io/se_project_spot/)
+-[Development Link]: (https://david-mendvza.github.io/se_project_spots/)
+
+- [Video Link]: (https://drive.google.com/file/d/1i1ByJc5vuDfHVGSOozkDDDtC4W_xre8w/view?usp=drive_link)
