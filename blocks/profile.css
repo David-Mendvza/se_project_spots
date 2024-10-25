@@ -99,6 +99,7 @@
   }
   .profile__column {
     margin: 0 0 20px;
+    text-align: center;
   }
   .profile__description {
     margin: 0 0 32px;
