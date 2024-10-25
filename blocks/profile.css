@@ -38,6 +38,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  opacity: 0.7;
 }
 .profile__edit-btn {
   margin-top: auto;
@@ -54,7 +55,7 @@
   gap: 8px;
 }
 .profile__edit-btn:hover {
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 1s linear 0s;
 }
 .profile__add-btn {
@@ -75,7 +76,7 @@
   cursor: pointer;
 }
 .profile__add-btn:hover {
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 1s linear 0s;
 }
 @media screen and (max-width: 627px) {
