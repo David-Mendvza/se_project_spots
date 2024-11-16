@@ -7,7 +7,7 @@
     <meta name="author" content="David Mendoza" />
     <meta name="keywords" content="HTML, CSS" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Spots</title>
   </head>
   <body>
@@ -48,18 +48,18 @@
           </ul>
         </section>
       </main>
-      <footer class="footer footer__section">
+      <footer class="footer footer_section">
         <div class="footer__content">
           <p class="footer__copyright">2023 &#169; Spots</p>
         </div>
       </footer>
       <div class="modal" id="edit-modal">
         <div class="modal__container">
-          <button type="submit" class="modal__close-btn">
-            <img src="/images/close-icon.svg.svg" alt="close-icon" />
+          <button type="button" class="modal__close-btn">
+            <img src="./images/close-icon.svg.svg" alt="close-icon" />
           </button>
           <h2 class="modal__title">Edit Profile</h2>
-          <form name="edit profile" class="modal__form">
+          <form id="edit-profile" class="modal__form">
             <label for="profile-name-input" class="modal__label">
               Name
               <input
