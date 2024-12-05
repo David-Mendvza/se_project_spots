@@ -11,6 +11,7 @@
   justify-content: center;
   padding: 0 20px;
   visibility: hidden;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 .modal_opened {
   visibility: visible;
@@ -119,6 +120,7 @@
   line-height: 1;
   color: #fcf5e5;
   background-color: #212121;
+  cursor: pointer;
 }
 @media screen and (max-width: 627px) {
   .modal {
@@ -140,5 +142,14 @@
   }
   .modal__submit-btn {
     width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .modal__image {
+    height: 288px;
+    max-width: 288px;
+  }
+  .modal__close-btn_type_preview {
+    top: -24px;
   }
 }

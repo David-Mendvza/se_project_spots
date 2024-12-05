@@ -50,6 +50,8 @@
   margin-top: 12px;
   opacity: 0.4;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 .card__like-btn:hover {
   opacity: 1;
@@ -58,6 +60,7 @@
 .card__like-btn_liked {
   background-image: url("../images/like-icon-liked.svg");
   opacity: 1;
+  background-color: transparent;
 }
 .card__like-btn_liked:hover {
   background-image: url("../images/like-icon-liked-hover.svg");
