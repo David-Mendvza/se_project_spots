@@ -149,7 +149,7 @@
 }
 @media screen and (max-width: 320px) {
   .modal {
-    padding: 0 16px;
+    padding: 0 10px;
   }
   .modal__image {
     height: 288px;
@@ -158,6 +158,9 @@
     padding: 0;
     border-radius: 4px;
   }
+  .modal__close-btn {
+    top: 0;
+  }
   .modal__close-btn_type_preview {
     top: -48px;
     right: 0;
@@ -165,12 +168,25 @@
   }
   .modal__container {
     padding: 0;
-    width: 288px;
-    height: 288px;
+    width: 300px;
   }
   .modal__caption {
     font-size: 16px;
     line-height: 19.2px;
     height: fit-content;
+  }
+  .modal__input {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .modal__title {
+    margin: 12px 12px 24px;
+  }
+  .modal__form {
+    padding: 0 12px 12px 12px;
+  }
+  .modal__submit-btn {
+    width: 276px;
+    align-self: center;
   }
 }
